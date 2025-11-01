@@ -6,10 +6,10 @@
 
 </div>
 
-Hi there 👋, welcome to my Python journey!  
-This repository contains my beginner-friendly Python projects, API integrations, and problems I've solved through code.  
+Hi there 👋, welcome to my Python journey!
+This repository contains my beginner-friendly Python projects, API integrations, and problems I've solved through code.
 Each project is a step forward in mastering Python, problem-solving, and backend development.
----
+
 ## 🌱 Why I Created This
 I built this repo to:
 - 🧩 Document my Python learning journey  
