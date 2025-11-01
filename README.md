@@ -30,7 +30,7 @@ I built this repo to:
 * Python 3.x
 * VS Code
 * Git + GitHub
-* Various Python libraries (requests, pandas, flask, etc.)
+* Various Python libraries 
 * …and lots of coffee ☕
 
 ---
@@ -58,9 +58,9 @@ Each project includes its own README with:
 ## 🌍 Connect With Me
 Let's connect and collaborate!
 
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/mucheru-delvan)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mucheru-delvan)
 
 ---
 
-✨ Thanks for checking out my work — this portfolio continues to evolve with each new project. Check back for updates!
+✨ Thanks for checking out my work — this repository continues to evolve with each new project. Check back for updates!
 
