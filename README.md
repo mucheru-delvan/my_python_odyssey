@@ -24,6 +24,10 @@ I built this repo to:
 - 🎮 **Interactive Apps** → engaging CLI-based projects  
 - 🧮 **Problem Solutions** → coding challenges and logical problem solving  
 ---
+
+**📑 Table of Contents**
+1. [Number Guessing Game](/number_guessing_game/)
+
 ## 🛠 Tech Stack
 * Python 3.x
 * VS Code
