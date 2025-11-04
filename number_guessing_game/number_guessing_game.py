@@ -1,10 +1,11 @@
 import random
 
 def number_guessing_game():
+    #I added this feature to track the best score across multiple games
     best_score = None
 
     while True:
-        print("\n🎮 Welcome to a Python Number Guessing Game!")
+        print("\nWelcome to a Python Number Guessing Game!")
         min_num = int(input("Enter the minimum number: "))
         max_num = int(input("Enter the maximum number: "))
         secret_number = random.randint(min_num, max_num)
@@ -25,7 +26,7 @@ def number_guessing_game():
                 print(f"🎉 Correct! You got it in {attempts} tries.")
                 if best_score is None or attempts < best_score:
                     best_score = attempts
-                    print("🥇 New best score!")
+                    print("🌠 New best score!")
                 break
             elif guess < secret_number:
                 print("Too low!")
@@ -33,13 +34,13 @@ def number_guessing_game():
                 print("Too high!")
 
         if attempts == max_attempts:
-            print(f"😢 Out of attempts! The number was {secret_number}.")
+            print(f"Out of attempts! The number was {secret_number}.")
 
-        print(f"🏆 Best score so far: {best_score if best_score else 'None'}")
-        
+        print(f" Best score so far: {best_score if best_score else 'None'}")
+
         play_again = input("Play again? (y/n): ").lower()
         if play_again != "y":
-            print("👋 Thanks for playing!")
+            print("👋..... Thanks for playing!")
             break
 
 number_guessing_game()
