@@ -25,7 +25,7 @@ I built this repo to:
 - 🧮 **Problem Solutions** → coding challenges and logical problem solving  
 ---
 
-**📑 Table of Contents**
+## 📑 Table of Contents
 1. [Number Guessing Game](/number_guessing_game/)
 
 ## 🛠 Tech Stack
