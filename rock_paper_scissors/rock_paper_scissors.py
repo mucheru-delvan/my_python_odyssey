@@ -18,6 +18,7 @@ def play_game():
             print("Invalid choice. Please try again.")
 
             continue
+
         computer_choice = random.choice(choices)
         print(f"\nYou chose: {user_choice}")
         print(f"Computer chose: {computer_choice}\n")
@@ -40,13 +41,13 @@ def play_game():
         else:
             print("Computer wins")
             computer_score +=1
-
+            
+        # End of round ask to play again
         play_again = input("\nDo you want to play again? (y/n): ").lower()
         if play_again not in ("y","yes"):
             break
 
-            
-        
+     
     print("\n🌟 FINAL STATS 🌟")
     print(f"Player wins: {user_score}")
     print(f"Computer wins: {computer_score}")
