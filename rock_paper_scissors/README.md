@@ -32,7 +32,7 @@ Enter your choice (Rock, Paper, Scissors): Paper
 You chose: Paper
 Computer chose: Scissors
 
- Computer wins!
+Computer wins!
 
 Do you want to play again? (y/n): n
 
