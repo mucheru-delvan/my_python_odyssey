@@ -20,27 +20,27 @@ Challenge the computer in this classic game of chance and strategy — can you b
 
 Enter your choice (Rock, Paper, Scissors): Rock
 
-🧍 You chose: Rock
-💻 Computer chose: Scissors
+ You chose: Rock
+ Computer chose: Scissors
 
-🎉 You won!
+You won!
 
 Do you want to play again? (y/n): y
 
 Enter your choice (Rock, Paper, Scissors): Paper
 
-🧍 You chose: Paper
-💻 Computer chose: Scissors
+You chose: Paper
+Computer chose: Scissors
 
-💻 Computer wins!
+ Computer wins!
 
 Do you want to play again? (y/n): n
 
 🌟 FINAL STATS 🌟
-👤 Player wins: 1
-💻 Computer wins: 1
+Player wins: 1
+Computer wins: 1
 🤝 Ties: 0
-🎮 Total games played: 2
+Total games played: 2
 
 👋 Thanks for playing!
 ```
