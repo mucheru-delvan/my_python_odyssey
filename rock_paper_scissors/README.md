@@ -20,8 +20,8 @@ Challenge the computer in this classic game of chance and strategy — can you b
 
 Enter your choice (Rock, Paper, Scissors): Rock
 
- You chose: Rock
- Computer chose: Scissors
+You chose: Rock
+Computer chose: Scissors
 
 You won!
 
