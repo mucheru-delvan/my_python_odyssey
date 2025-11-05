@@ -13,7 +13,7 @@ Try to guess the secret number in as few attempts as possible, and challenge you
 ## Example
 
 ```text
-🎮 Welcome to a Python Number Guessing Game!
+Welcome to a Python Number Guessing Game!
 Enter the minimum number: 1
 Enter the maximum number: 100
 Enter the maximum number of guesses: 7
