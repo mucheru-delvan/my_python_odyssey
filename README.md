@@ -27,6 +27,7 @@ I built this repo to:
 
 ## 📑 Table of Contents
 1. [Number Guessing Game](/number_guessing_game/)
+2. [Rock_Paper_Scissors](/rock_paper_scissors/)
 
 ## 🛠 Tech Stack
 * Python 3.x
