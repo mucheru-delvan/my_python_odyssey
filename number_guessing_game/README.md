@@ -23,8 +23,8 @@ Enter your guess: 25
 Too low!
 Enter your guess: 37
 🎉 Correct! You got it in 3 tries.
-🥇 New best score!
-🏆 Best score so far: 3
+🌠 New best score!
+ Best score so far: 3
 Play again? (y/n): n
-👋 Thanks for playing!
+👋.....Thanks for playing!
 ```
