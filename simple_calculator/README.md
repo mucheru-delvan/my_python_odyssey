@@ -1,7 +1,7 @@
 
 ---
 
-# 🧮 Simple Calculator for Noobs
+# Simple Calculator for Noobs
 
 A beginner-friendly Python command-line calculator!
 Perform quick math operations right from your terminal — addition, subtraction, multiplication, and division made simple.
@@ -51,8 +51,4 @@ Here are some suggestions:
 
 ---
 
-👨‍💻 **Author:** Delvan Mucheru
-💬 “Every great developer once started with a simple program like this.”
-
----
 
