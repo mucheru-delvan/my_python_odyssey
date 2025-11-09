@@ -32,7 +32,7 @@ I built this repo to:
 4. [Even & Odd Counter](/even_and_odd_counter/)
 5. [Palindrome Checker](/palindrome_checker/)
 6. [Word Counter](/word_counter/)
-7. [Temperature](/temperature_converter/)
+7. [Temperature Converter](/temperature_converter/)
 
 ## 🛠 Tech Stack
 * Python 3.x
