@@ -30,6 +30,8 @@ I built this repo to:
 2. [Rock Paper Scissors](/rock_paper_scissors/)
 3. [Simple Calculator](/simple_calculator/)
 4. [Even & Odd Counter](/even_and_odd_counter/)
+5. [Palindrome Checker](/palindrome_checker/)
+6. 
 
 ## 🛠 Tech Stack
 * Python 3.x
