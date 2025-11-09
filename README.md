@@ -31,7 +31,7 @@ I built this repo to:
 3. [Simple Calculator](/simple_calculator/)
 4. [Even & Odd Counter](/even_and_odd_counter/)
 5. [Palindrome Checker](/palindrome_checker/)
-6. 
+6. [Word Counter](/word_counter/)
 
 ## 🛠 Tech Stack
 * Python 3.x
