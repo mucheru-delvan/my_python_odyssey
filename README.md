@@ -35,6 +35,7 @@ I built this repo to:
 7. [Temperature Converter](/temperature_converter/)
 8. [Multiplication Table Generator](/multiplication_table_generator/)
 9. [Simple Login System](/simple_login_system/)
+10. [BMI Calculator](/bmi_calculator/)
 
 ## 🛠 Tech Stack
 * Python 3.x
