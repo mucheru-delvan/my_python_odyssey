@@ -4,7 +4,7 @@
 
 A simple interactive Python program that converts temperatures between **Celsius**, **Fahrenheit**, and **Kelvin**.
 
-## ✨ Features
+##  Features
 
 * Convert **Celsius → Fahrenheit**
 * Convert **Celsius → Kelvin**
@@ -13,7 +13,7 @@ A simple interactive Python program that converts temperatures between **Celsius
 * Input validation for non-numeric values
 * Easy-to-use text-based menu
 
-## 🧩 Example
+##  Example
 
 ```text
  🌟Temperature Converter🌟
