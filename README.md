@@ -33,6 +33,7 @@ I built this repo to:
 5. [Palindrome Checker](/palindrome_checker/)
 6. [Word Counter](/word_counter/)
 7. [Temperature Converter](/temperature_converter/)
+8. [Multiplication Table Generator](/multiplication_table_generator/)
 
 ## 🛠 Tech Stack
 * Python 3.x
