@@ -34,6 +34,7 @@ I built this repo to:
 6. [Word Counter](/word_counter/)
 7. [Temperature Converter](/temperature_converter/)
 8. [Multiplication Table Generator](/multiplication_table_generator/)
+9. [Simple Login System](/simple_login_system/)
 
 ## 🛠 Tech Stack
 * Python 3.x
