@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "naomi",
+      "grade": 88.0
+    },
+    {
+      "name": "Dorian",
+      "grade": 49.0
+    },
+    {
+      "name": "marvin",
+      "grade": 68.0
+    },
+    {
+      "name": "William",
+      "grade": 90.0
+    },
+    {
+      "name": "Omalicha",
+      "grade": 39.0
+    }
+  ]
+}
