@@ -1,7 +1,9 @@
 import json
 from pathlib import Path
 
-
+#I added this base dir to make sure the data.json file is 
+# created in the same directory as this script
+# It avoids issues when running the script from different working directories.
 BASE_DIR = Path(__file__).parent
 filename = BASE_DIR / "data.json"
 
