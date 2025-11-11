@@ -7,16 +7,17 @@ You can add, view, and remove students — and all your data is automatically sa
 
 ## 🧠 Features
 
--  **Add new students** with their names and grades  
--  **View all students** in a neatly formatted list  
-- ❌**Remove a student** by selecting their number  
--  **Automatic data saving** in `data.json` (stored in the same folder)  
-- ⚙️**Error handling** for invalid input and missing files
+- ➕ **Add new students** with their names and grades  
+- 📋 **View all students** in a neatly formatted list  
+- ❌ **Remove a student** by selecting their number  
+- 💾 **Automatic data saving** in `data.json` (stored in the same folder)  
+- ⚙️ **Error handling** for invalid input and missing files  
 
 ---
 
 ## ⚡ Example Output
 
+```bash
 🎖️ Student GradeBook App 🎖️
 
 1. View Students
@@ -28,4 +29,5 @@ Choose (1-4): 2
 Enter the student name: John
 Enter the student grade: 83
 John with grade 83.0 added successfully!
+
 
