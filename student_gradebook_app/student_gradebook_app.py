@@ -8,6 +8,7 @@ BASE_DIR = Path(__file__).parent
 filename = BASE_DIR / "data.json"
 
 def load_students():
+
     try:
         with open(filename, "r") as f:
             return json.load(f)
@@ -15,11 +16,18 @@ def load_students():
         return {"data": []}
 
 def save_students(data):
-    with open(filename, "w") as f:
-        json.dump(data, f, indent=2)
+
+    try:
+        with open(filename, "w") as f:
+            json.dump(data, f, indent=2)
+
+    except FileNotFoundError:
+        return {"data": []}
 
 def add_student(data):
+
     while True:
+        
         name = input("Enter the student name: ").strip()
         if not name:
             print("Name cannot be blank")
@@ -46,6 +54,7 @@ def view_students(data):
 
 def remove_student(data):
     view_students(data)
+
     try:
         student_num = int(input("Enter the student number to remove: "))
         deleted_student = data["data"].pop(student_num - 1)
