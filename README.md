@@ -38,6 +38,7 @@ I built this repo to:
 10. [BMI Calculator](/bmi_calculator/)
 11. [Student Gradebook App](/student_gradebook_app/)
 12. [Banking System (OOP)](/banking_system/)
+13. [To Do App](/to_do_app/)
 
 ## 🛠 Tech Stack
 * Python 3.x
