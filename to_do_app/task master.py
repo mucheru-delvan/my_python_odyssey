@@ -102,7 +102,7 @@ def main():
     tasks = load_tasks()
    
     while True:
-        print("\nTask Manager\n")
+        print("\n✨Task Manager✨\n")
         print("1.View tasks")
         print("2.Add task")
         print("3.Complete task")
