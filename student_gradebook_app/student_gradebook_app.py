@@ -55,13 +55,17 @@ def view_students(data):
 def remove_student(data):
     view_students(data)
 
-    try:
-        student_num = int(input("Enter the student number to remove: "))
-        deleted_student = data["data"].pop(student_num - 1)
-        save_students(data)
-        print(f"{deleted_student['name']} removed successfully!")
-    except (ValueError, IndexError):
-        print("Invalid selection!")
+    if not data["data"]:
+        print("No students to remove!")
+        
+    else:
+        try:
+            student_num = int(input("Enter the student number to remove: "))
+            deleted_student = data["data"].pop(student_num - 1)
+            save_students(data)
+            print(f"{deleted_student['name']} removed successfully!")
+        except (ValueError, IndexError):
+            print("Invalid selection!")
 
 def main():
     data = load_students()
