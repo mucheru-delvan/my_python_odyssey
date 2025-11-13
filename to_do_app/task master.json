@@ -1,1 +1,20 @@
-{"tasks": [{"task_description": "Shopping ", "complete": false}, {"task_description": "Eating", "complete": true}, {"task_description": "Going To The Calisthenics Park", "complete": true}, {"task_description": "Grinding so hard on leetcode problems", "complete": false}]}
+{
+    "tasks": [
+        {
+            "task_description": "Grinding leetcode",
+            "complete": true
+        },
+        {
+            "task_description": "Calisthenics",
+            "complete": false
+        },
+        {
+            "task_description": "Brushing teeth",
+            "complete": false
+        },
+        {
+            "task_description": "Cooking pancakes",
+            "complete": true
+        }
+    ]
+}

@@ -19,7 +19,7 @@ def save_tasks(tasks):
 
     try:
         with open(filename,"w") as file:
-            json.dump(tasks,file)
+            json.dump(tasks,file,indent=4)
     except FileNotFoundError:
         return {"tasks":[]}
     
