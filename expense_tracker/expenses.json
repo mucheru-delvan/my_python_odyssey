@@ -1,0 +1,22 @@
+[
+    {
+        "category": "food",
+        "description": "groceries",
+        "amount": 400.0
+    },
+    {
+        "category": "food",
+        "description": "vegetables",
+        "amount": 70.0
+    },
+    {
+        "category": "car",
+        "description": "repair",
+        "amount": 800.0
+    },
+    {
+        "category": "Enjoyment",
+        "description": "surfing",
+        "amount": 90.0
+    }
+]
