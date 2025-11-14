@@ -134,13 +134,7 @@ python3 main.py
 *(Windows users can use `python main.py`)*
 
 
-
 ---
-
-If you want, I can **also add a visual diagram of the project structure** for your README so it looks even more professional on GitHub.
-
-Do you want me to do that?
-
 
 ### **4. Check the project's README**
 
@@ -151,10 +145,6 @@ Every project directory includes its own README explaining:
 * ▶️ How to run it
 * ✨ Features
 * 📌 Example output
-
----
-
-If you want, I can auto-generate a **universal start script**, or help you structure the repo like a professional portfolio.
 
 ---
 ## 🌍 Connect With Me
