@@ -1,4 +1,5 @@
 import json
+import statistics
 from pathlib import Path
 
 #I added this base dir to make sure the data.json file is 
@@ -49,8 +50,14 @@ def view_students(data):
         print("No students added yet!")
     else:
         print("\n🏆 Students Performance 🏆\n")
-        for idx, s in enumerate(students, start=1):
+        sorted_students = sorted(students,key=lambda x:x['grade'],reverse=True)
+        for idx, s in enumerate(sorted_students, start=1):
             print(f"{idx}. {s['name'].capitalize()} : {s['grade']}")
+
+
+        grades = [s['grade'] for s in students]
+        average = round(statistics.mean(grades),2)
+        print(f"\nAverage grade :{average}")
 
 def remove_student(data):
     view_students(data)

@@ -1,3 +1,28 @@
 {
-  "data": []
+  "data": [
+    {
+      "name": "larry",
+      "grade": 89.0
+    },
+    {
+      "name": "mister",
+      "grade": 67.0
+    },
+    {
+      "name": "john",
+      "grade": 88.0
+    },
+    {
+      "name": "miraj",
+      "grade": 78.0
+    },
+    {
+      "name": "William",
+      "grade": 48.0
+    },
+    {
+      "name": "Kabogo",
+      "grade": 77.0
+    }
+  ]
 }
