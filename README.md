@@ -41,28 +41,123 @@ I built this repo to:
 13. [To-Do App](/to_do_app/)
 14. [Expense Tracker](/expense_tracker/)
 
-## 🛠 Tech Stack
-* Python 3.x
-* VS Code
-* Git + GitHub
-* Various Python libraries 
-* …and lots of coffee ☕
+
 ---
+
+## 🛠 Tech Stack
+
+* **Python 3.x**
+* **VS Code**
+* **Git + GitHub**
+* Built-in Python libraries (`json`, `statistics`, `pathlib`, etc.)
+* …and lots of coffee ☕
+
+---
+
 ## 🚀 Getting Started
-Clone this repository:
+
+### **1. Clone this repository**
+
 ```bash
 git clone https://github.com/mucheru-delvan/my_python_odyssey.git
 cd my_python_odyssey
 ```
-Navigate to a project folder and run:
+
+---
+
+### **2. Navigate to a project folder**
+
+Each project is in its own directory.
+
+Example:
+
+```bash
+cd student_gradebook_app
+```
+
+or:
+
+```bash
+cd expense_tracker
+```
+
+---
+
+### **3. Run the project file**
+
+Projects in this repo are named individually (e.g., `student_gradebook.py`, `expense_tracker.py`) — not `main.py`.
+
+Run the file inside the folder:
+
+```bash
+python3 student_gradebook.py
+```
+
+or:
+
+```bash
+python3 expense_tracker.py
+```
+
+(Windows users can use `python` instead of `python3`.)
+
+---
+Here’s a **professional “Using `main.py`” section** you can add to your README, written in the same style as your other sections:
+
+---
+
+## 🏁 Using `main.py` in OOP Projects
+
+Some projects in this repository are built using **Object-Oriented Programming (OOP)**.
+In these projects, the program is divided into multiple Python files for better organization, and `main.py` serves as the **entry point**.
+
+### **Why `main.py`?**
+
+* Keeps your **classes** and **logic** in separate files (e.g., `student.py`, `gradebook.py`)
+* Allows you to **run the program from one place**
+* Makes the project **modular, reusable, and professional**
+
+---
+
+### **How to Run OOP Projects**
+
+1. Navigate to the project folder:
+
+```bash
+cd student_gradebook_oop
+```
+
+2. Run the `main.py` file:
+
 ```bash
 python3 main.py
 ```
-Each project includes its own README with:
-- Project overview and purpose
-- Installation requirements
-- Usage instructions
-- Features and capabilities
+
+*(Windows users can use `python main.py`)*
+
+
+
+---
+
+If you want, I can **also add a visual diagram of the project structure** for your README so it looks even more professional on GitHub.
+
+Do you want me to do that?
+
+
+### **4. Check the project's README**
+
+Every project directory includes its own README explaining:
+
+* 📝 Project overview
+* ⚙️ Requirements
+* ▶️ How to run it
+* ✨ Features
+* 📌 Example output
+
+---
+
+If you want, I can auto-generate a **universal start script**, or help you structure the repo like a professional portfolio.
+
 ---
 ## 🌍 Connect With Me
 Let's connect and collaborate!
