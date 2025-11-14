@@ -101,8 +101,6 @@ python3 expense_tracker.py
 
 (Windows users can use `python` instead of `python3`.)
 
----
-Here’s a **professional “Using `main.py`” section** you can add to your README, written in the same style as your other sections:
 
 ---
 
