@@ -36,7 +36,7 @@ def display_tasks(tasks):
     
 def add_task(tasks):
     
-    task_description = input("Enter the task description: ")
+    task_description = input("Enter the task description: ").strip()
     if task_description:
         tasks["tasks"].append({"task_description": task_description,"complete": False})
         save_tasks(tasks)
