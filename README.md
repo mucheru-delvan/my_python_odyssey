@@ -39,6 +39,7 @@ I built this repo to:
 11. [Student Gradebook App](/student_gradebook_app/)
 12. [Banking System (OOP)](/banking_system/)
 13. [To-Do App](/to_do_app/)
+14. [Expense Tracker](/expense_tracker/)
 
 ## 🛠 Tech Stack
 * Python 3.x
