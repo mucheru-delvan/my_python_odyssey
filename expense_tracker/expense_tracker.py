@@ -18,37 +18,45 @@ def save_expenses(expenses):
     with open(filename, "w") as file:
         json.dump(expenses, file, indent=4)
 
-
 def view_expenses(expenses):
     if not expenses:
         print("No expenses added yet!")
         return
 
-    print("\n💰 Your Expenses List 💰\n")
+    print("\n💰 Your Expenses 💰")
+    
+    category_totals = {}
     total_spent = 0
-
+    
     for i, expense in enumerate(expenses, 1):
-        print(f"{i}. {expense['category'].capitalize()}: "
-              f"{expense['description'].capitalize()} - ${expense['amount']}")
-        total_spent += expense["amount"]
+        print(f"{i}. {expense['category']}: {expense['description']} - ${expense['amount']}")
+        category = expense['category']
+        category_totals[category] = category_totals.get(category, 0) + expense['amount']
+        total_spent += expense['amount']
 
-    print(f"\nTotal expenses: ${total_spent}\n")
+    
+    print(f"\nCategory Totals:\n")
+    for category, total in category_totals.items():
+        print(f"{category}: ${total}")
+
+    print(f"\nTotal: ${total_spent}")
 
 
 def add_expense(expenses):
     while True:
-        category = input("Enter the category (food, rent, etc.): ").strip()
+        category = input("Enter the category (food, rent, etc.): ").strip().capitalize()
         if not category:
             print("Category cannot be empty!")
             continue
 
-        description = input(f"Enter the {category} description: ").strip()
+        description = input(f"Enter the {category} description: ").strip().lower()
         if not description:
             print("Description cannot be empty!")
             continue
 
         try:
             amount = float(input(f"Enter the amount for {description}: $"))
+
         except ValueError:
             print("Please enter valid numbers!")
             continue
