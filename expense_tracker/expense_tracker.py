@@ -55,6 +55,7 @@ def add_expense(expenses):
             continue
 
         try:
+            
             amount = float(input(f"Enter the amount for {description}: $"))
 
         except ValueError:

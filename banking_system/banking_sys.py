@@ -36,14 +36,6 @@ class BankAccount:
         
         self.balance -= amount
         account.balance += amount
-        return f"You have transferred ${amount} to {account.owner}."
+        return f"You have transferred ${amount} to {account.owner} your new balance is ${self.balance}."
 
-
-account1 = BankAccount("Mark")
-account2 = BankAccount("Mary")
-account1.deposit(480)
-#print(account1.withdraw(100))
-#print(account1.check_balance())
-print(account1.transfer(account2,200))
-print(account2.check_balance())
 

@@ -1,8 +1,11 @@
+Here is your **updated README**, rewritten to match your **new code with category totals + overall total** while keeping everything simple and in the same style as your original document.
+
+---
 
 # 💸 Python Expense Tracker 💸
 
 A simple and interactive **Python Expense Tracker** that helps you record, view, and manage your daily spending!
-All your expenses are saved automatically so you never lose your data.
+All your expenses are automatically saved in a JSON file so your data is always safe.
 
 ---
 
@@ -11,15 +14,19 @@ All your expenses are saved automatically so you never lose your data.
 This program allows you to:
 
 * Add new expenses with a **category**, **description**, and **amount**
-* View all recorded expenses in a clean, formatted list
-* Remove unwanted expenses by selecting their number
-* Automatically save and load expense data from a **JSON file**
+* View all recorded expenses in a clean, readable list
+* See **total spending per category**
+* See your **overall total spending**
+* Remove expenses by selecting their number
+* Automatically save and load data using a **JSON file**
 
-It’s a great beginner-friendly project to practice **file handling**, **JSON data storage**, **lists & dictionaries**, **functions**, and **user input validation** in Python.
+It’s a great beginner-friendly project for practicing **file handling**, **JSON**, **lists & dictionaries**, **functions**, and **user input validation** in Python.
 
 ---
 
 ## 💡 Example Output
+
+### Adding an expense
 
 ```text
 💸 Expense Tracker 💸
@@ -30,14 +37,16 @@ It’s a great beginner-friendly project to practice **file handling**, **JSON d
 4. Exit
 
 Enter your choice: 2
-Enter the category of the expense: food
-Enter the food description: lunch
+Enter the category (food, rent, etc.): Food
+Enter the Food description: lunch
 Enter the amount for lunch: $250
 
-Added: food - lunch @ $250
+Added: Food - lunch @ $250
 ```
 
-or
+---
+
+### Viewing expenses
 
 ```text
 💸 Expense Tracker 💸
@@ -49,15 +58,22 @@ or
 
 Enter your choice: 1
 
-💰 Your Expenses List 💰
+💰 Your Expenses 💰
+1. Food: lunch - $250
+2. Transport: bus fare - $80
+3. Food: snacks - $50
 
-1. Food: Lunch - $250
-2. Transport: Bus fare - $80
+Category Totals:
 
-Total expenses: $330
+Food: $300
+Transport: $80
+
+Total: $380
 ```
 
-or when there are no expenses:
+---
+
+### When no expenses exist
 
 ```text
 No expenses added yet!
@@ -65,3 +81,4 @@ No expenses added yet!
 
 ---
 
+If you'd like, I can add installation instructions, screenshots, or a “future improvements” section.
