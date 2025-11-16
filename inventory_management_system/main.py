@@ -2,7 +2,7 @@ from inventory_manager import SimpleInventory
 
 def main():
 
-    inv = SimpleInventory("items.json")
+    inv = SimpleInventory()
 
     inv.add_items("balls", 9)
     inv.add_items("bats", 5)
