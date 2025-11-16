@@ -1,6 +1,3 @@
-Here’s a polished GitHub-ready README for your `SimpleInventory` project with the `main.py` usage included:
-
----
 
 # 🏪 Simple Inventory Manager
 
