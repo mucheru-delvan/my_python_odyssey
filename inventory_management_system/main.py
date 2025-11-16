@@ -1,7 +1,7 @@
 from inventory_manager import SimpleInventory
 
 def main():
-
+    #you can add your json file path here if needed else it will use the default items.json
     inv = SimpleInventory()
 
     inv.add_items("balls", 9)
