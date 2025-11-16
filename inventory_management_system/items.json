@@ -1,10 +1,14 @@
 [
   {
     "name": "bats",
-    "quantity": 10
+    "quantity": 20
   },
   {
     "name": "jersey",
-    "quantity": 12
+    "quantity": 24
+  },
+  {
+    "name": "gloves",
+    "quantity": 4
   }
 ]
