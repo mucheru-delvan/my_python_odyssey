@@ -139,7 +139,7 @@ python3 main.py
 
 ### **4. Check the project's README**
 
-Some projects directory includes their own README explaining:
+Some project directories include their own README explaining
 
 * 📝 Project overview
 * ⚙️ Requirements
