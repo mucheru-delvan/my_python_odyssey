@@ -1,6 +1,4 @@
-Here is your **updated README**, rewritten to match your **new code with category totals + overall total** while keeping everything simple and in the same style as your original document.
 
----
 
 # 💸 Python Expense Tracker 💸
 
@@ -80,5 +78,3 @@ No expenses added yet!
 ```
 
 ---
-
-If you'd like, I can add installation instructions, screenshots, or a “future improvements” section.
