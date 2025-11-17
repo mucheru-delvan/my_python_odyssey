@@ -23,18 +23,27 @@ A **Python Bank Account application** that allows you to:
 ##  Usage Example
 
 ```python
-# Create accounts
-mark = Bank("Mark")
-mary = Bank("Mary")
+# main.py
+from banking_sys import BankAccount  # Absolute import, works in the same folder
 
-# Transactions
-print(mark.deposit(500))          # Add money
-print(mark.withdraw(200))         # Withdraw money
-print(mark.transfer(mary, 100))   # Transfer to Mary
+def main():
+    #  I created accounts
+    account1 = BankAccount("Mark")
+    account2 = BankAccount("Mary")
 
-# Check balances
-print(mark.check_balance())       # Current balance: 200
-print(mary.check_balance())       # Current balance: 100
+    # Deposit money
+    account1.deposit(480)
+
+    # Transferred to  money to another account
+    print(account1.transfer(account2, 200))
+
+    # Checked account balances
+    #print(account1.check_balance())
+    #print(account2.check_balance())
+
+if __name__ == "__main__":
+    main()
+
 ```
 
 > All data will be lost once the program stops.
