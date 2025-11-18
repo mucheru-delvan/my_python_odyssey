@@ -37,10 +37,10 @@ I built this repo to:
 9. [Simple Login System](/simple_login_system/)
 10. [BMI Calculator](/bmi_calculator/)
 11. [Student Gradebook App](/student_gradebook_app/)
-12. [Banking System (OOP)](/banking_system/)
+12. [Banking System (OOP)](/banking_system_oop/)
 13. [To-Do App](/to_do_app/)
 14. [Expense Tracker](/expense_tracker/)
-15. [Inventory Management System (OOP)](/inventory_management_system/)
+15. [Inventory Management System (OOP)](/inventory_management_system_oop/)
 
 
 ---
