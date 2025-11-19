@@ -70,8 +70,3 @@ Here are some suggestions:
 * 💾 Add a **calculation history** feature to view previous calculations.
 
 ---
-<<<<<<< HEAD
-
-Let me know if you want this converted into a template or added to a full GitHub project structure.
-=======
->>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
