@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 
+=======
+---
+>>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
 # Simple Python Calculator
 
 A beginner-friendly Python command-line calculator!
 Perform quick math operations right from your terminal — addition, subtraction, multiplication, and division made simple.
 
 ## Features
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
 * Clean and interactive command-line interface with emoji styling.
 * Supports the four basic arithmetic operations: `+`, `-`, `*`, `/`.
 * Handles division by zero gracefully with clear error messages.
@@ -14,7 +21,10 @@ Perform quick math operations right from your terminal — addition, subtraction
 * Perfect for Python beginners learning input, conditionals, functions, and loops.
 
 ## Example
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
 ```text
 🪙 Simple Python Calculator🪙
 
@@ -56,9 +66,13 @@ Enter the second number: 3
 ```
 
 ---
+<<<<<<< HEAD
 
 ## Challenge Yourself!
 
+=======
+## Challenge Yourself!
+>>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
 Think you've mastered this version? Try upgrading it with your own ideas!
 
 Here are some suggestions:
@@ -70,5 +84,8 @@ Here are some suggestions:
 * 💾 Add a **calculation history** feature to view previous calculations.
 
 ---
+<<<<<<< HEAD
 
 Let me know if you want this converted into a template or added to a full GitHub project structure.
+=======
+>>>>>>> 6f0facd34f91be50cfdd17a34ec2365076aa2ea1
