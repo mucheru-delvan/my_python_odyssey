@@ -14,7 +14,7 @@ def report_generator():
 
     while True:
         
-        subject = input("Enter the unit name: ('q to finish): ").lower().strip()
+        subject = input("Enter the unit name ('q to finish'): ").lower().strip()
         if not subject:
             print("Subject cannot be empty!")
 
@@ -44,7 +44,7 @@ def report_generator():
 
     sorted_data = sorted(data,key=lambda x:x['grade'],reverse= True)
 
-    for idx,mark in enumerate(sorted_data,1):
+    for idx, mark in enumerate(sorted_data,1):
         print(f"{idx}.{mark['subject'].title()} — {mark['grade']}%")
    
     linear_gpa = [mark['grade']/100 * 4.0 for mark in sorted_data]
