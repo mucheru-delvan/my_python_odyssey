@@ -14,7 +14,7 @@ def report_generator():
 
     while True:
         
-        subject = input("Enter the unit name ('q to finish'): ").lower().strip()
+        subject = input("Enter the unit name ('q' to finish ): ").lower().strip()
         if not subject:
             print("Subject cannot be empty!")
 
