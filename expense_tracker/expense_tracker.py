@@ -31,10 +31,13 @@ def view_expenses(expenses):
     for i, expense in enumerate(expenses, 1):
         print(f"{i}. {expense['category']}: {expense['description']} - ${expense['amount']}")
         category = expense['category']
-        category_totals[category] = category_totals.get(category, 0) + expense['amount']
-        total_spent += expense['amount']
 
-    
+        if category not in category_totals:
+            category_totals[category] = 0
+        category_totals[category] += expense['amount']
+
+        total_spent += expense['amount']
+  
     print(f"\nCategory Totals:\n")
     for category, total in category_totals.items():
         print(f"{category}: ${total}")

@@ -1,0 +1,673 @@
+
+
+[
+    {
+        "category": "Technology",
+        "question": "What does 'HTTP' stand for in web addresses?",
+        "options": {
+            "A": "HyperText Transfer Protocol",
+            "B": "High-Level Text Transmission",
+            "C": "Home Tool Transfer Program",
+            "D": "Hyperlink Text Type"
+        },
+        "answer": "A",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Technology",
+        "question": "Which company developed the Python programming language?",
+        "options": {
+            "A": "Microsoft",
+            "B": "Guido van Rossum (created it at CWI)",
+            "C": "Google",
+            "D": "Oracle"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Technology",
+        "question": "What was the first commercially available smartphone?",
+        "options": {
+            "A": "iPhone (2007)",
+            "B": "BlackBerry (1999)",
+            "C": "IBM Simon (1994)",
+            "D": "Nokia Communicator (1996)"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Technology",
+        "question": "What does 'GPU' stand for?",
+        "options": {
+            "A": "Graphical Pixel Unit",
+            "B": "Graphics Processing Unit",
+            "C": "General Processing Unit",
+            "D": "Gaming Processor Unit"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Technology",
+        "question": "Which year was the first iPhone released?",
+        "options": {
+            "A": "2005",
+            "B": "2006",
+            "C": "2007",
+            "D": "2008"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Technology",
+        "question": "What is the name of Google's AI assistant?",
+        "options": {
+            "A": "Google AI",
+            "B": "Google Helper",
+            "C": "Google Assistant",
+            "D": "Google Buddy"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Technology",
+        "question": "Which protocol is used to send email?",
+        "options": {
+            "A": "HTTP",
+            "B": "FTP",
+            "C": "SMTP",
+            "D": "TCP"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Technology",
+        "question": "What was the original name of Twitter?",
+        "options": {
+            "A": "twttr",
+            "B": "tweetr",
+            "C": "birdie",
+            "D": "chirp"
+        },
+        "answer": "A",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Technology",
+        "question": "Which company created the first computer mouse?",
+        "options": {
+            "A": "Apple",
+            "B": "Microsoft",
+            "C": "Xerox",
+            "D": "IBM"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Technology",
+        "question": "What does 'URL' stand for?",
+        "options": {
+            "A": "Universal Resource Locator",
+            "B": "Uniform Resource Locator",
+            "C": "Unified Resource Link",
+            "D": "Universal Reference Locator"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Technology",
+        "question": "Which programming language was created by Brendan Eich in 10 days?",
+        "options": {
+            "A": "Python",
+            "B": "Java",
+            "C": "C++",
+            "D": "JavaScript"
+        },
+        "answer": "D",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Technology",
+        "question": "What was the first video uploaded to YouTube?",
+        "options": {
+            "A": "Gangnam Style",
+            "B": "Me at the zoo",
+            "C": "Charlie Bit My Finger",
+            "D": "Evolution of Dance"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Technology",
+        "question": "What does 'LAN' stand for?",
+        "options": {
+            "A": "Local Access Network",
+            "B": "Large Area Network",
+            "C": "Local Area Network",
+            "D": "Linked Access Nodes"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Technology",
+        "question": "Which company developed the first USB flash drive?",
+        "options": {
+            "A": "Sony",
+            "B": "SanDisk",
+            "C": "Trek Technology and IBM",
+            "D": "Samsung"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+
+    
+    {
+        "category": "Science",
+        "question": "What is the chemical symbol for gold?",
+        "options": {
+            "A": "Go",
+            "B": "Gd",
+            "C": "Au",
+            "D": "Ag"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Science",
+        "question": "Which planet is known as the Red Planet?",
+        "options": {
+            "A": "Venus",
+            "B": "Mars",
+            "C": "Jupiter",
+            "D": "Saturn"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Science",
+        "question": "What is the hardest natural substance on Earth?",
+        "options": {
+            "A": "Gold",
+            "B": "Iron",
+            "C": "Diamond",
+            "D": "Quartz"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Science",
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": {
+            "A": "Oxygen",
+            "B": "Nitrogen",
+            "C": "Carbon dioxide",
+            "D": "Hydrogen"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Science",
+        "question": "What is the human body's largest organ?",
+        "options": {
+            "A": "Liver",
+            "B": "Brain",
+            "C": "Skin",
+            "D": "Lungs"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "Which scientist developed the theory of relativity?",
+        "options": {
+            "A": "Isaac Newton",
+            "B": "Albert Einstein",
+            "C": "Galileo Galilei",
+            "D": "Stephen Hawking"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "What is the study of fossils called?",
+        "options": {
+            "A": "Geology",
+            "B": "Archaeology",
+            "C": "Paleontology",
+            "D": "Biology"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "Which element has the atomic number 1?",
+        "options": {
+            "A": "Helium",
+            "B": "Oxygen",
+            "C": "Hydrogen",
+            "D": "Carbon"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "What is the speed of light in a vacuum?",
+        "options": {
+            "A": "150,000 km/s",
+            "B": "299,792 km/s",
+            "C": "450,000 km/s",
+            "D": "100,000 km/s"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Science",
+        "question": "Which vitamin is produced when humans are exposed to sunlight?",
+        "options": {
+            "A": "Vitamin A",
+            "B": "Vitamin B12",
+            "C": "Vitamin C",
+            "D": "Vitamin D"
+        },
+        "answer": "D",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "What is the largest known structure in the universe?",
+        "options": {
+            "A": "Milky Way Galaxy",
+            "B": "Hercules-Corona Borealis Great Wall",
+            "C": "Andromeda Galaxy",
+            "D": "Virgo Supercluster"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Science",
+        "question": "Which blood type is the universal donor?",
+        "options": {
+            "A": "A negative",
+            "B": "B positive",
+            "C": "AB positive",
+            "D": "O negative"
+        },
+        "answer": "D",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Science",
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": {
+            "A": "Oxygen",
+            "B": "Carbon dioxide",
+            "C": "Nitrogen",
+            "D": "Hydrogen"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Science",
+        "question": "Which part of the brain controls balance?",
+        "options": {
+            "A": "Cerebrum",
+            "B": "Cerebellum",
+            "C": "Brainstem",
+            "D": "Hypothalamus"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+
+    
+    {
+        "category": "Math",
+        "question": "What is the value of π (pi) to two decimal places?",
+        "options": {
+            "A": "3.16",
+            "B": "3.14",
+            "C": "3.18",
+            "D": "3.12"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Math",
+        "question": "How many sides does a hexagon have?",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "7",
+            "D": "8"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Math",
+        "question": "What is the square root of 144?",
+        "options": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Math",
+        "question": "In the equation y = mx + b, what does 'm' represent?",
+        "options": {
+            "A": "Y-intercept",
+            "B": "Slope",
+            "C": "X-intercept",
+            "D": "Constant"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Math",
+        "question": "What is the sum of the angles in a triangle?",
+        "options": {
+            "A": "90 degrees",
+            "B": "180 degrees",
+            "C": "270 degrees",
+            "D": "360 degrees"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Math",
+        "question": "What is the next number in the Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, ...?",
+        "options": {
+            "A": "18",
+            "B": "20",
+            "C": "21",
+            "D": "23"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Math",
+        "question": "What is the name of a polygon with nine sides?",
+        "options": {
+            "A": "Octagon",
+            "B": "Nonagon",
+            "C": "Decagon",
+            "D": "Heptagon"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Math",
+        "question": "What is the value of 5! (5 factorial)?",
+        "options": {
+            "A": "60",
+            "B": "100",
+            "C": "120",
+            "D": "150"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Math",
+        "question": "What is the only even prime number?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "4"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Math",
+        "question": "What is the name of the theorem that states a² + b² = c² in a right triangle?",
+        "options": {
+            "A": "Fermat's Last Theorem",
+            "B": "Pythagorean theorem",
+            "C": "Euclidean theorem",
+            "D": "Newton's theorem"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "Math",
+        "question": "What is the value of e to three decimal places?",
+        "options": {
+            "A": "2.617",
+            "B": "2.718",
+            "C": "3.142",
+            "D": "1.414"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Math",
+        "question": "How many degrees are in a circle?",
+        "options": {
+            "A": "180",
+            "B": "270",
+            "C": "360",
+            "D": "450"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "Math",
+        "question": "What is the name of the number system with base 16?",
+        "options": {
+            "A": "Binary",
+            "B": "Decimal",
+            "C": "Octal",
+            "D": "Hexadecimal"
+        },
+        "answer": "D",
+        "difficulty": "hard"
+    },
+    {
+        "category": "Math",
+        "question": "What is the sum of the first 10 natural numbers (1+2+3+...+10)?",
+        "options": {
+            "A": "45",
+            "B": "50",
+            "C": "55",
+            "D": "60"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+
+  
+    {
+        "category": "History",
+        "question": "In which year did World War II end?",
+        "options": {
+            "A": "1943",
+            "B": "1945",
+            "C": "1947",
+            "D": "1950"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "History",
+        "question": "Who was the first president of the United States?",
+        "options": {
+            "A": "Thomas Jefferson",
+            "B": "George Washington",
+            "C": "Abraham Lincoln",
+            "D": "John Adams"
+        },
+        "answer": "B",
+        "difficulty": "easy"
+    },
+    {
+        "category": "History",
+        "question": "Which ancient civilization built the pyramids?",
+        "options": {
+            "A": "Ancient Greeks",
+            "B": "Ancient Romans",
+            "C": "Ancient Egyptians",
+            "D": "Ancient Chinese"
+        },
+        "answer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "category": "History",
+        "question": "Who painted the Mona Lisa?",
+        "options": {
+            "A": "Vincent van Gogh",
+            "B": "Pablo Picasso",
+            "C": "Leonardo da Vinci",
+            "D": "Michelangelo"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "History",
+        "question": "Which year did the Titanic sink?",
+        "options": {
+            "A": "1905",
+            "B": "1912",
+            "C": "1918",
+            "D": "1923"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "History",
+        "question": "Who invented the telephone?",
+        "options": {
+            "A": "Thomas Edison",
+            "B": "Nikola Tesla",
+            "C": "Alexander Graham Bell",
+            "D": "Guglielmo Marconi"
+        },
+        "answer": "C",
+        "difficulty": "medium"
+    },
+    {
+        "category": "History",
+        "question": "Which empire was ruled by Genghis Khan?",
+        "options": {
+            "A": "Roman Empire",
+            "B": "Ottoman Empire",
+            "C": "Mongol Empire",
+            "D": "British Empire"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+    {
+        "category": "History",
+        "question": "What was the name of the first artificial Earth satellite?",
+        "options": {
+            "A": "Explorer 1",
+            "B": "Sputnik 1",
+            "C": "Vanguard 1",
+            "D": "Telstar 1"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "History",
+        "question": "Who was the first woman to win a Nobel Prize?",
+        "options": {
+            "A": "Florence Nightingale",
+            "B": "Marie Curie",
+            "C": "Rosalind Franklin",
+            "D": "Jane Addams"
+        },
+        "answer": "B",
+        "difficulty": "hard"
+    },
+    {
+        "category": "History",
+        "question": "Which ancient wonder was located in Alexandria, Egypt?",
+        "options": {
+            "A": "Great Pyramid of Giza",
+            "B": "Hanging Gardens of Babylon",
+            "C": "Lighthouse of Alexandria",
+            "D": "Colossus of Rhodes"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+    {
+        "category": "History",
+        "question": "Who wrote the 'I Have a Dream' speech?",
+        "options": {
+            "A": "Malcolm X",
+            "B": "Martin Luther King Jr.",
+            "C": "Barack Obama",
+            "D": "Frederick Douglass"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    },
+    {
+        "category": "History",
+        "question": "Which year did the Berlin Wall fall?",
+        "options": {
+            "A": "1985",
+            "B": "1987",
+            "C": "1989",
+            "D": "1991"
+        },
+        "answer": "C",
+        "difficulty": "hard"
+    },
+    {
+        "category": "History",
+        "question": "Who was the first person to step on the Moon?",
+        "options": {
+            "A": "Buzz Aldrin",
+            "B": "Neil Armstrong",
+            "C": "Yuri Gagarin",
+            "D": "John Glenn"
+        },
+        "answer": "B",
+        "difficulty": "medium"
+    }
+]
+
+
+
