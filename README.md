@@ -42,6 +42,7 @@ I built this repo to:
 14. [Expense Tracker](/expense_tracker/)
 15. [Inventory Management System (OOP)](/inventory_management_system_oop/)
 16. [Marks Report Generator](/marks_report_generator/)
+17. [Quiz Game](/quiz_game/)
 
 
 ---
