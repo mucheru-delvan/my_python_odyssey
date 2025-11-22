@@ -57,7 +57,7 @@ Your percentage score is 77.78%.
 
 ---
 
-##  Future Improvements (Optional)
+##  Future Improvements (Try for Yourself)
 
 * Add multiple-choice questions
 * Add categories (Tech, Math, General Knowledge, etc.)
