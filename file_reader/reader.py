@@ -30,8 +30,7 @@ def read_file(filename):
                 frequency[word] = frequency[word] + 1
             else:
                 frequency[word] = 1
-                
-        
+                   
         if frequency:
             max_count = max(frequency.values())
             most_frequent = {word for word, count in frequency.items() if count == max_count}
