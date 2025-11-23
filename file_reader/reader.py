@@ -8,9 +8,7 @@ def read_file(filename):
         with open(file_path,"r") as f:
             content = f.read()
         
-        
         print("\n🌟FILE ANALYZER🌟\n")
-        
     
         lines = content.splitlines()
         total_lines = len(lines)
