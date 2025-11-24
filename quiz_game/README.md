@@ -1,6 +1,6 @@
 
 
-# 🎯 Trivia Game (Python CLI)
+#  Trivia Game (Python CLI)
 
 A simple and fun **command-line trivia quiz game** built in Python.
 The game selects random questions, checks your answers, and displays your score and percentage at the end.
@@ -14,16 +14,6 @@ The game selects random questions, checks your answers, and displays your score 
 *  User input validation (no blank answers)
 *  Score and percentage calculation
 *  Simple and beginner-friendly Python code
-
----
-
-## 📂 Project Structure
-
-```
-trivia_game/
-│── trivia_game.py
-│── README.md
-```
 
 ---
 
