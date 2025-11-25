@@ -1,6 +1,6 @@
 
 
-# 📒 Python Contact Book 📒
+#  Python Contact Book 
 
 A simple and interactive **Python Contact Book** that helps you save, search, update, and manage your personal contacts!
 All your data is automatically stored in a JSON file so your contacts are always safe.
@@ -22,7 +22,7 @@ It’s a great beginner-friendly project for practicing **file handling**, **JSO
 
 ---
 
-## 💡 Example Output
+##  Example Output
 
 ### Adding contacts
 
