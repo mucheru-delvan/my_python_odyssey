@@ -143,11 +143,11 @@ python3 main.py
 
 Some project directories include their own README explaining
 
-* 📝 Project overview
-* ⚙️ Requirements
-* ▶️ How to run it
-* ✨ Features
-* 📌 Example output
+*  Project overview
+*  Requirements
+*  How to run it
+*  Features
+*  Example output
 
 ---
 ## 🌍 Connect With Me
