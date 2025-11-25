@@ -108,7 +108,7 @@ python3 expense_tracker.py
 
 ---
 
-## 🏁 Using `main.py` in OOP Projects
+## Using `main.py` in OOP Projects
 
 Some projects in this repository are built using **Object-Oriented Programming (OOP)**.
 In these projects, the program is divided into multiple Python files for better organization, and `main.py` serves as the **entry point**.
