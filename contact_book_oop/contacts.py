@@ -19,13 +19,13 @@ class ContactBook:
             json.dump(self.contacts, f, indent=2)
 
     def add_contact(self, name, phone):
-
+        # I added this to check if contact already exists thus updating instead of adding duplicate
         for contact in self.contacts:
             if contact["name"].lower() == name.lower():
                 contact["phone"] = phone
                 self.save_contacts()
                 return f"Updated {name}'s phone number to {phone}"
-
+        
         new_contact = {"name": name, "phone": phone}
         self.contacts.append(new_contact)
         self.save_contacts()
