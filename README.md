@@ -44,7 +44,7 @@ I built this repo to:
 16. [Marks Report Generator](/marks_report_generator/)
 17. [Quiz Game](/quiz_game/)
 18. [File Reader/Analyzer](/file_reader/)
-19. [Contact Book](/contact_book_oop/)
+19. [Contact Book (OOP)](/contact_book_oop/)
 
 ---
 
