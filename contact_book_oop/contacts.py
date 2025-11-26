@@ -11,7 +11,7 @@ class ContactBook:
         try:
             with open(self.filename, "r") as f:
                 return json.load(f)
-        except:
+        except FileNotFoundError:
             return []
 
     def save_contacts(self):
