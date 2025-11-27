@@ -1,5 +1,5 @@
 
-# 🚀 Multiplication Table Generator
+#  Multiplication Table Generator
 
 A simple Python script that generates a multiplication table for any number you input!
 
