@@ -1,5 +1,5 @@
 
-# 🤩 Python BMI Calculator 🤩
+#  Python BMI Calculator 
 
 A simple and fun **Python Body Mass Index (BMI) Calculator** that helps you determine your health category based on your height and weight!
 
@@ -13,7 +13,7 @@ It’s a great beginner project to understand **user input**, **error handling**
 
 ---
 
-## 💡 Example Output
+##  Example Output
 
 ```text
 🤩 Python BMI Calculator 🤩
