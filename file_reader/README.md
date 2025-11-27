@@ -6,7 +6,7 @@ A simple but powerful Python script that reads a text file and analyzes its cont
 
 ---
 
-## 🚀 Features
+##  Features
 
 *  **Reads any text file** located in the same directory as the script
 *  **Counts total lines**
