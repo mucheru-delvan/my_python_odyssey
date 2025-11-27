@@ -1,12 +1,12 @@
 
-# 🏪 Simple Inventory Manager
+#  Simple Inventory Manager
 
 A **Python-based inventory management system** that allows you to **add, remove, search, and view items**.
 All inventory data is stored persistently in a JSON file (`items.json`) using the built-in `json` and `pathlib` modules.
 
 ---
 
-## 🧰 Features
+##  Features
 
 * **Add new items** or **update existing items**
 * **Remove items** from the inventory
@@ -17,7 +17,7 @@ All inventory data is stored persistently in a JSON file (`items.json`) using th
 
 ---
 
-## ⚡ How to Use
+##  How to Use
 
 ### Example Script (`main.py`)
 
@@ -60,7 +60,7 @@ Found bats with quantity 5
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── inventory_manager.py   # Main inventory class
