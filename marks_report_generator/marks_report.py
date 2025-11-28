@@ -15,15 +15,17 @@ def report_generator():
     while True:
         
         subject = input("Enter the unit name ('q' to finish ): ").lower().strip()
+       
+        if subject == "q":
+            print("Thank you for using the marks generator bye👋")
+            
+            break
+
         if not subject:
             print("Subject cannot be empty!")
 
             continue
 
-        if subject == "q":
-            print("Thank you for using the marks generator bye👋")
-            
-            break
         try:
 
             grade = float(input(f"Enter the grade you scored for {subject} %: "))
