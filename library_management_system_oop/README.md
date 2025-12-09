@@ -1,5 +1,5 @@
 
-# 📚 Python Library Management System 📚
+#  Python Library Management System 
 
 A simple and interactive **Python Library Management System** that allows you to manage books, users, and borrowing operations using clean Object-Oriented Programming (OOP).
 
@@ -24,7 +24,7 @@ It’s a great beginner-friendly project for understanding **encapsulation**, **
 
 ---
 
-## 📘 Example Usage
+##  Example Usage
 
 ### Initializing the system
 
@@ -70,7 +70,7 @@ Book returned successfully!
 ### Viewing all users
 
 ```text
-👥 Registered Users 👥
+ Registered Users 
 1. Alice (U001)
 2. Melvin (U002)
 3. Charlie (U003)
