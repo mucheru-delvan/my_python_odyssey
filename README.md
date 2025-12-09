@@ -45,6 +45,7 @@ I built this repo to:
 17. [Quiz Game](/quiz_game/)
 18. [File Reader/Analyzer](/file_reader/)
 19. [Contact Book (OOP)](/contact_book_oop/)
+20. [Library Management System (OOP)](/library_management_system_oop/)
 
 ---
 
