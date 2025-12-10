@@ -25,7 +25,7 @@ def read_file(filename):
         frequency = {}
         for word in words:
             if word in frequency:
-                frequency[word] = frequency[word] + 1
+                frequency[word] += 1
             else:
                 frequency[word] = 1
                    
