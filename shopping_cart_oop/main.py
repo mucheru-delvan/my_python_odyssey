@@ -2,6 +2,7 @@ from shopping_cart import ShoppingCart
 
 
 def main():
+    
     cart = ShoppingCart()
 
     while True:
