@@ -8,5 +8,4 @@ class Item:
         return f"{self.name} (x{self.quantity}) - ${self.price:.2f} each"
     
 
-new_item = Item("apple", 3, 0.99)
-print(new_item)  # Output: apple (x3) - $0.99 each
+
