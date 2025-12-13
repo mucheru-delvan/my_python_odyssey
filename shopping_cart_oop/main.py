@@ -1,28 +1,41 @@
-def main():
-    from shopping_cart import ShoppingCart
-    from item import Item
+from shopping_cart import ShoppingCart
 
+
+def main():
     cart = ShoppingCart()
 
-    item1 = Item("Apple", 0.5, 4)
-    item2 = Item("Banana", 0.3, 6)
-    item3 = Item("Orange", 0.8, 3)
+    while True:
+        print("\n--- Shopping Cart Menu ---")
+        print("1. Add item")
+        print("2. Remove item")
+        print("3. View cart")
+        print("4. Checkout & Exit")
 
-    cart.add_item(item1)
-    cart.add_item(item2)
-    cart.add_item(item3)
+        choice = input("Choose an option (1-4): ")
 
-    print("Items in cart:")
-    for item in cart.get_items():
-        print(f"- {item.name}: ${item.price} x {item.quantity}")
+        if choice == "1":
+            name = input("Enter item name: ")
+            try:
+                price = float(input("Enter item price: "))
+                quantity = int(input("Enter quantity: "))
+                cart.add_item(name, price, quantity)
+            except ValueError:
+                print("Invalid input. Price must be a number, quantity must be an integer.")
 
-    total = cart.get_total()
-    print(f"Total price: ${total:.2f}")
+        elif choice == "2":
+            name = input("Enter item name to remove: ")
+            cart.remove_item(name)
 
-    cart.remove_item("Banana")
-    print("\nAfter removing Banana:")
-    for item in cart.get_items():
-        print(f"- {item.name}: ${item.price} x {item.quantity}")
+        elif choice == "3":
+            cart.view_cart()
 
-    total = cart.get_total()
-    print(f"Total price: ${total:.2f}")
+        elif choice == "4":
+            print("\nFinal Cart:")
+            cart.view_cart()
+            print("Thank you for shopping!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()

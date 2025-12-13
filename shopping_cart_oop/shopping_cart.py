@@ -1,6 +1,7 @@
+from item import Item
 
 class ShoppingCart:
-    
+
     def __init__(self):
         self.items = []
 
@@ -33,5 +34,5 @@ class ShoppingCart:
     def clear_cart(self):
         self.items = []
 
-    def get_items(self):
+    def view_cart(self):
         return self.items
