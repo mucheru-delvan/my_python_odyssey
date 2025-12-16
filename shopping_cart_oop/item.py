@@ -1,8 +1,9 @@
 class Item:
-    def __init__(self,name,quantity,price):
+    def __init__(self,name,price,quantity):
         self.name = name
-        self.quantity = quantity
         self.price = price
+        self.quantity = quantity
+        
 
     def __str__(self):
         return f"{self.name} (x{self.quantity}) - ${self.price:.2f} each"

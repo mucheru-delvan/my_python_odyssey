@@ -1,7 +1,6 @@
 from shopping_cart import ShoppingCart
 
 
-
 def main():
     cart = ShoppingCart()
     while True:
@@ -13,8 +12,17 @@ def main():
 
         choice = input("Enter your choice: ")
         if choice == "1":
-            break
-            
+            name = input("Enter the item's name: ").strip()
+            try:
+
+                price = float(input(f"Enter the price of {name}: "))
+                quantity = int(input(f"Enter the quantity of {name}: "))
+                cart.add_item(name,price,quantity)
+
+            except ValueError:
+                print("Please enter valid numbers!") 
+        else:
+            break 
 
 if __name__ == "__main__":
     main()
