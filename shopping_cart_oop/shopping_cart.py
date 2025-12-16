@@ -15,3 +15,11 @@ class ShoppingCart:
         new_item = Item(name,price,quantity)
         self.items.append(new_item)
         print(f"\nYou added {new_item} to cart\n")
+
+    def remove_item(self,name):
+        for item in self.items:
+            if item.name == name:
+                self.items.remove(item)
+                print(f"\nYou removed {item} from cart\n")
+                return
+        print(f"\nItem {name} not found in cart.\n")

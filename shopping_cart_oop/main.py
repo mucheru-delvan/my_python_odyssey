@@ -21,6 +21,11 @@ def main():
 
             except ValueError:
                 print("Please enter valid numbers!") 
+
+        elif choice == "2":
+            name = input("Enter the item's name to remove: ").strip()
+            cart.remove_item(name)  
+            
         else:
             break 
 
