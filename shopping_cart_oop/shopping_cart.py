@@ -5,10 +5,9 @@ class ShoppingCart:
     def __init__(self):
         self.items = []
   
-     #I added default for quantity = 1 in order to allow the user to update
-    def add_item(self,name,price,quantity=1):
+    def add_item(self,name,price,quantity):
         for item in self.items:
-            if item in self.items:
+            if item.name == name:
                 item.quantity += quantity
                 print(f"Updated {item.name} quantity to {item.quantity}")
                 return

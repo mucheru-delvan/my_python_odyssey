@@ -12,7 +12,7 @@ def main():
 
         choice = input("Enter your choice: ")
         if choice == "1":
-            name = input("Enter the item's name: ").strip()
+            name = input("Enter the item's name: ").strip().capitalize()
             try:
 
                 price = float(input(f"Enter the price of {name}: "))
@@ -23,13 +23,19 @@ def main():
                 print("Please enter valid numbers!") 
 
         elif choice == "2":
-            name = input("Enter the item's name to remove: ").strip()
+            name = input("Enter the item's name to remove: ").strip().capitalize()
             cart.remove_item(name)  
 
         elif choice == "3":
             cart.view_cart()
+
+        elif choice == "4":
+            print("\nChecking out...\n")
+            cart.view_cart()
+            print("Thank you for shopping with us!")
+            break
         else:
-            break 
+            print("Invalid choice. Please try again.")
 
 if __name__ == "__main__":
     main()
