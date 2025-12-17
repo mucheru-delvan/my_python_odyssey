@@ -25,7 +25,9 @@ def main():
         elif choice == "2":
             name = input("Enter the item's name to remove: ").strip()
             cart.remove_item(name)  
-            
+
+        elif choice == "3":
+            cart.view_cart()
         else:
             break 
 
