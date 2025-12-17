@@ -33,4 +33,4 @@ class ShoppingCart:
         print(f"The total is ${self.total_cost():.2f}")
 
     def total_cost(self):
-        return sum(item.price * item.quantity for item in self.items)
+        return sum(item.total_price() for item in self.items)
