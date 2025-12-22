@@ -1,23 +1,25 @@
 class Menu:
     def __init__(self):
-        self.items = {}
+        self.products = []
 
-    def add_item(self, name, price):
+    def add_product(self,product):
+        self.products.append(product)
+        print(f"Added : {product.name}")
         
-        self.items[name] = price
 
-    def remove_item(self, name):
+    def remove_product(self,product):
         
-        if name in self.items:
-            del self.items[name]
+        if product in self.products:
+             self.products.remove(product)
+             print(f"Removed :{product.name}")
         else:
-            print(f"Item '{name}' not found in the menu.")  
+            print(f"Item '{product}' not found in the menu.")  
 
-    def get_price(self, name):
+    #def get_price(self, name):
         
-        return self.items.get(name, None)
+        #return self.products
 
     def display_menu(self):
         
-        for name, price in self.items.items():
-            print(f"{name}: ${price:.2f}")
+        for name in self.products:
+            print(f"{name}:")
