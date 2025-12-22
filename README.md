@@ -47,6 +47,7 @@ I built this repo to:
 19. [Contact Book (OOP)](/contact_book_oop/)
 20. [Library Management System (OOP)](/library_management_system_oop/)
 21. [Shopping Cart (OOP)](/shopping_cart_oop/)
+22. [Restaurant Ordering System (OOP)](/restaurant_ordering_system_oop/)
 
 ---
 
