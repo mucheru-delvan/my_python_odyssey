@@ -24,21 +24,6 @@ It’s a great beginner-friendly project for understanding **encapsulation**, **
 
 ---
 
-## Class Interaction Overview
-
-### How classes interact:
-
-* **Product** → stores product information (`name`, `price`)
-* **Menu** → contains multiple `Product` objects, allows adding/removing/displaying
-* **Order** → contains products with quantities, calculates totals, allows adding/removing items
-
-```
-Product  → used by → Menu
-Product  → used by → Order
-Menu     → orchestrated by → main.py
-Order    → orchestrated by → main.py
-```
-
 💡 Each class handles a **single responsibility**, and objects interact via composition (HAS-A relationships), demonstrating clean OOP principles.
 
 ---
