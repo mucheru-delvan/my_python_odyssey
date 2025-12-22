@@ -1,5 +1,5 @@
 
-# 🛒 Python Restaurant Ordering System (OOP)
+#  Python Restaurant Ordering System (OOP)
 
 A simple and interactive **Python Restaurant Ordering System** that allows you to manage products, menus, and customer orders using clean Object-Oriented Programming (OOP).
 
