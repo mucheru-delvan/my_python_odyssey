@@ -10,7 +10,7 @@ class Bus:
         print("Seat Layout:")
 
         for seat_number in range(1, self.capacity + 1):
-            status = "[✓]" if seat_number in self.booked_seats else "[]"
+            status = "[✓]" if seat_number in self.booked_seats else "[ ]"
             print(status, end="")
 
         
@@ -25,18 +25,19 @@ class Bus:
 
 
     def book_seat(self, seat_number):
-
-        if seat_number < 1 or seat_number > self.capacity:
+    
+        if not (1 <= seat_number <= self.capacity):
             print("Invalid seat number.")
             return False
-        
+
         if seat_number in self.booked_seats:
             print("Seat already booked.")
             return False
-        
+
         self.booked_seats.add(seat_number)
         print(f"Seat {seat_number} successfully booked.")
-        return True 
+        return True
+
     
     def cancel_booking(self, seat_number):
         if seat_number in self.booked_seats:
