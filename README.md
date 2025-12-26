@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 MyPythonOdyssey
+#  MyPythonOdyssey
 
 ![Python Coding GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzh1M2Jwb3o5bnhubWFraHh6ZW1la3kwdW4yemY1Zm40cGtkNXBpciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/UIN7Andwh7kDZGUvmt/giphy.gif)
 
