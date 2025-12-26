@@ -24,7 +24,7 @@ It’s a great beginner-friendly project for understanding **encapsulation**, **
 
 ---
 
-💡 Each class handles a **single responsibility**, and objects interact via composition (HAS-A relationships), demonstrating clean OOP principles.
+ Each class handles a **single responsibility**, and objects interact via composition (HAS-A relationships), demonstrating clean OOP principles.
 
 ---
 
